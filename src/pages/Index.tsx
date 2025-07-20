@@ -27,7 +27,7 @@ const Index = () => {
       badge: "Featured"
     },
     {
-      image: "https://images.unsplash.com/photo-1514961703774-908c5ba23912?w=800&h=600&fit=crop",
+      image: "https://i.pinimg.com/1200x/91/af/11/91af1119c06d6f2346e179634bce6250.jpg",
       title: "Tokyo Nights",
       location: "Japan",
       price: "$127",
@@ -82,7 +82,7 @@ const Index = () => {
           </Badge>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-up">
             Discover Your Next
-            <span className="block gradient-sunset bg-clip-text text-transparent">
+            <span className="block gradient-sunset bg-clip-text text-light">
               Adventure
             </span>
           </h1>
@@ -218,7 +218,7 @@ const Index = () => {
             <Button variant="accent" size="lg" className="text-lg px-8 py-6">
               Start Planning Now
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-primary">
+            <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-white text-gray-900 hover:bg-white hover:text-primary">
               Browse Destinations
             </Button>
           </div>
@@ -230,7 +230,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4 gradient-ocean bg-clip-text text-transparent">
+              <h3 className="text-2xl font-bold mb-4  bg-clip-text text-light">
                 TravelBook
               </h3>
               <p className="text-gray-400">
